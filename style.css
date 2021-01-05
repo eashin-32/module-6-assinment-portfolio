@@ -1,0 +1,87 @@
+/* Google font */
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+/* Bebas Neue*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+/* universal selection */
+
+h1{
+    font-family: 'Bebas Neue',
+    cursive;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+h2{
+   font-family: 'Bebas Neue',
+   cursive;
+    font-size: 48px;
+    color: #061135f6;
+}
+.title-name{
+    color: #FF8063;
+}
+.title{
+    color: darkcyan;
+}
+p{
+    font-family: 'Roboto',
+    sans-serif;
+    color: dimgray;
+    font-size: 16px;
+}
+.button-link{
+    background-image: linear-gradient(90deg, #6E1FEA 0%,#467DE1 99.99%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size:16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto',
+    sans-serif;
+    display: inline-block;
+    margin-top: 30px;
+}
+section{
+    height: 500px;
+    padding-bottom: 115px;
+    padding-top: 20px;
+}
+
+/* Header Section */
+
+ul{
+    padding-top: 0;
+    margin: 10px 20px 25px 0px ;
+   height: 25px;
+  display: block;
+}
+ul li{
+    list-style: none;
+    float: right;
+    text-align:right ;
+    margin: 20px 15px 5px 0px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto' , sans-serif;
+}
+.half-width{
+    width: 40%;
+    margin-left:5% ;
+    padding-left: 2%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+}
+.about{
+    margin-top: 10px;
+}
