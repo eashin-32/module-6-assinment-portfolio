@@ -70,8 +70,10 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.534);
     font-family: 'Roboto' , sans-serif;
+    font-weight: 700;
+    
 }
 .half-width{
     width: 40%;
@@ -84,4 +86,110 @@ ul li a{
 }
 .about{
     margin-top: 10px;
+}
+
+/* project arae */
+
+.my-project-area{
+    background-color: #e5e5e5;
+}
+.my-project-area h2{
+    text-align: center;
+}
+.my-project-area .card{
+ width: 370px;
+ height: 374px;
+ background: #FFFFFF;
+ border-radius: 10px;
+ float: left;
+ margin-left: 4%;
+ box-shadow: 10px 10px 30px gray;
+ }
+
+.card img{
+  width: 345px;  
+ height: 210px;
+    margin: 15px;
+
+}
+.card p,h3{
+    padding-left: 25px;
+}
+.card h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700
+
+}
+/* contact section(work inquiry) */
+.work-inquiry{
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: 900px;
+   
+    background-position: center;
+}
+.work-inquiry h2{
+    margin: 50% 0 0 35%;
+    color: #ffffff;
+}
+.work-inquiry .button-link{
+    margin: 52% 0 0 40%;
+    background-image: linear-gradient(280deg,#FF589B,#FF136F);
+}
+
+/* footer area */
+.footer-text h1{
+    font-size:25px ;
+    color: dimgray;
+    font-weight: normal;
+}
+.footer-text h3{
+    font-family: 'Roboto ', sans-serif;
+    font-size: 36px;
+    color: #061135f6;
+}
+.footer-text{
+    text-align:center;
+}
+.social-icons img{
+    width: 40px;
+    height: 40px;
+    padding: 0 10px;
+   
+}
+.social-icons{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 50px;
+  
+}
+/*  skills section*/
+.skills{
+    width: 80%;
+    background-image:linear-gradient(277.25deg,
+    #6E1FEA 3.13%,
+    #5258E5 22.69%,
+    #3593E0 45.35%,
+    #1EC2DB 66.22%,
+    #0EE3D8 84.62%,
+    #04F8D7 99.82%,
+    #00FFD6 109.96%);
+    height:300px ;
+    margin: 100px auto;
+    border-radius: 15px;
+}
+.skills h2{
+    color: #FFFFFF;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+.skills h5{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:#FF8063;
+    font-size: 15px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
 }
