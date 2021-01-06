@@ -177,6 +177,7 @@ ul li a{
     height:300px ;
     margin: 100px auto;
     border-radius: 15px;
+    box-shadow: 10px 10px 30px gray;
 }
 .skills h2{
     color: #FFFFFF;
@@ -192,4 +193,19 @@ ul li a{
     font-size: 15px;
     margin-bottom: 5px;
     letter-spacing: 1px;
+}
+.skills .skill1{
+    width: 20%;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    float: left;
+    width:355px ;
+    margin: auto;
+}
+.skill1 img{
+   width: 65px;
+    
+}
+.skill1 p{
+    color: #FFFFFF;
 }
